@@ -41,7 +41,7 @@
 
       <!--=======  CORPO ========-->
 <!-- action="mail_send.php" method="post" -->
-<form >
+<form action="index.php" method="post">
       <div class="container container-custom"> <!--=======  container ========-->
 
           <div class="row"> <!--=======  row principal ========-->
@@ -83,7 +83,7 @@
 
                         <div class="row">
                               <fieldset class="indicar">
-                                <legend>De 1 a 5 o quanto indicaria a softcom</legend>
+                                <legend>Indicaria Softcom</legend>
                                   <label class="radio-inline"><input type="radio" name="indicaria" value="1">1</label>
                                   <label class="radio-inline"><input type="radio" name="indicaria" value="2">2</label>
                                   <label class="radio-inline"><input type="radio" name="indicaria" value="3">3</label>
