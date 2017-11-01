@@ -41,7 +41,7 @@
 
       <!--=======  CORPO ========-->
 <!-- action="mail_send.php" method="post" -->
-<form action="index.php" method="post">
+<form action="#" method="post">
       <div class="container container-custom"> <!--=======  container ========-->
 
           <div class="row"> <!--=======  row principal ========-->
