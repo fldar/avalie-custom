@@ -83,7 +83,7 @@
 
                         <div class="row">
                               <fieldset class="indicar">
-                                <legend>Indicaria Softcom</legend>
+                                <legend>Indicaria a Softcom</legend>
                                   <label class="radio-inline"><input type="radio" name="indicaria" value="1">1</label>
                                   <label class="radio-inline"><input type="radio" name="indicaria" value="2">2</label>
                                   <label class="radio-inline"><input type="radio" name="indicaria" value="3">3</label>
