@@ -119,7 +119,7 @@
 
                         <div class="form-group col-md-12" >
                              <label for="tecnico">Tecnico:</label>
-                             <input type="texto" class="form-control texto" id="tecnico" required>
+                             <input type="text" name="tecnico" class="form-control texto" id="tecnico" required>
                         </div>
 
                       </div>
@@ -128,7 +128,7 @@
 
                         <div class="form-group col-md-12" >
                              <label for="registro">Registro:</label>
-                             <input type="texto" class="form-control texto" id="registro"  required>
+                             <input type="text" name="registro" class="form-control texto" id="registro"  required>
                         </div>
 
                       </div>
@@ -137,7 +137,7 @@
 
                         <div class="form-group col-md-12" >
                              <label for="email">Email:</label>
-                             <input type="email" class="form-control texto" id="email" >
+                             <input type="email" name="email" class="form-control texto" id="email" >
                         </div>
 
                       </div>
