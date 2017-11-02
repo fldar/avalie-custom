@@ -17,7 +17,7 @@ class ContatoController extends Controller
 		{
 			
 		}else{
-			Mail::to('lucasalmeidacco@gmail.com')->send(new ContatoEmail($request));
+			Mail::to('lucasalmeidacco@gmail.com')->send(new ContatoElogio($request));
 		}
 		
 	}
