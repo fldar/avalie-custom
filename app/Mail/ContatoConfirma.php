@@ -31,7 +31,7 @@ class ContatoConfirma extends Mailable
      */
     public function build()
     {
-        return $this->from($this->dados->email,$this->dados->nome)
+       return $this->from($this->dados->email,$this->dados->nome)
                     ->subject('Avaliação Softcom')
                     ->view('emailconfirma');
     }
