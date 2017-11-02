@@ -11,12 +11,14 @@ class ContatoElogio extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $dados;
+
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($dados)
     {
         $this->dados = $dados;
     }
