@@ -1,1 +1,1 @@
-<h2>Obrigador por avaliar!!!!</h2>
+<h2>Agradecemos a avaliação !!!!</h2>

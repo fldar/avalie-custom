@@ -25,6 +25,6 @@ class ContatoController extends Controller
 		}
 		Mail::to($remetente)->send(new ContatoConfirma($request));
 		
-		return view(agradecimento);
+		header('/tank');
 	}
 }
