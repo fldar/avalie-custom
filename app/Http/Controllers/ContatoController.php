@@ -24,7 +24,11 @@ class ContatoController extends Controller
 			Mail::to('lucasalmeidacco@gmail.com')->send(new ContatoElogio($request));
 		}
 		
+<<<<<<< HEAD
 		Mail::to($remetente)->send(new ContatoConfirma($request));
+=======
+		Mail::to($remetende)->send(new ContatoConfirma($request));
+>>>>>>> 1dd4bf0693d58ead115a1661cb4aa2fef6244f0a
 		
 	}
 }
