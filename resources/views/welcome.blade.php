@@ -26,7 +26,7 @@
   <body>
 
       <!-- TOPO DA PAGINA -->
-      <nav id="topo" class="navbar  navbar-inverse bg-inverse navbar-fixed" style="background: white;">
+      <nav id="topo" class="navbar  navbar-inverse bg-inverse" style="background: white;">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="index.html">
