@@ -53,5 +53,4 @@
         "sort-packages": true,
         "optimize-autoloader": true
     }
-	"guzzlehttp/guzzle": "~5.3|~6.0"
 }
