@@ -1,4 +1,4 @@
-<h2>Avaliação Softcom<h2>
+<h2>Avaliação Softcom</h2>
 	<br>
 	<p>Técnico: {{$dados->tecnico}}</p>
 	<p>Empresa: {{$dados->registro}}</p>
