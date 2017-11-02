@@ -158,7 +158,7 @@
                     <div class="col-md-12">
                       <div class="row botao form-actions" >
 					   <label for="registro">Deixe um elogio: </label>
-                       <textarea name="elogio"  cols="40" rows="3" class="form-control"></textarea>
+                       <textarea name="elogio"  id="elogio" cols="40" rows="3" class="form-control"></textarea>
                       </div>
                     </div>
                   </div>

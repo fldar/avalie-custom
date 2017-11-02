@@ -12,5 +12,6 @@ class ContatoController extends Controller
     public function enviaContato(Request $request)
 	{
 		Mail::to('lucasalmeidacco@gmail.com')->send(new ContatoEmail($request));
+		
 	}
 }
