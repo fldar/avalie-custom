@@ -13,7 +13,7 @@ class ContatoController extends Controller
 	{
 		Mail::to('lucasalmeidacco@gmail.com')->send(new ContatoEmail($request));
 		
-		if(empty($request->['elogio'))
+		if(empty($request->elogio))
 		{
 			
 		}else{
