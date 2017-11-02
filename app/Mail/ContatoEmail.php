@@ -32,7 +32,7 @@ class ContatoEmail extends Mailable
     public function build()
     {
         return $this->from($this->dados->email,$this->dados->nome)
-                    ->subject($this->dados->tecnico." ".$this->dados->cortesia."".$this->dados->eficacia."".$this->dados->suporte)
+                    ->subject($this->dados->tecnico." ".$this->dados->cortesia." ".$this->dados->eficacia." ".$this->dados->suporte)
                     ->view('emailcontato');
     }
 }
