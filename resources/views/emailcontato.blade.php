@@ -8,4 +8,4 @@
 	<p>Eficacia: {{$dados->eficacia}}</p>
 	<p>Suporte: {{$dados->suporte}}</p>
 	<br>
-	<p>Indicaria a Softcom: {{$dados->cortesia}}</p>
+	<p>Indicaria a Softcom: {{$dados->indicaria}}</p>
