@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail; 
 use App\Mail\ContatoEmail;
 use App\Mail\ContatoElogio;
+use App\Mail\ContatoConfirma;
 
 
 class ContatoController extends Controller
