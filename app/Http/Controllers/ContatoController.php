@@ -12,6 +12,8 @@ class ContatoController extends Controller
 {
     public function enviaContato(Request $request)
 	{
+		$remetente = $request->email
+		
 		Mail::to('lucasalmeidacco@gmail.com')->send(new ContatoEmail($request));
 		
 		if(empty($request->elogio))
@@ -20,6 +22,8 @@ class ContatoController extends Controller
 		}else{
 			Mail::to('lucasalmeidacco@gmail.com')->send(new ContatoElogio($request));
 		}
+		
+		Mail::to($remetende)->send(new ContatoConfirma($request));
 		
 	}
 }
