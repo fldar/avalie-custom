@@ -8,6 +8,6 @@ class ContatoController extends Controller
 {
     public function enviaContato(Request $request)
 	{
-		dMail::to('lucasalmeidacco@gmail.com')->send(new ContatoEmail($request));
+		Mail::to('lucasalmeidacco@gmail.com')->send(new ContatoEmail($request));
 	}
 }
