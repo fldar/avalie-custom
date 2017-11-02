@@ -57,10 +57,10 @@
 							<div class="form-group">
 								  <fieldset>
 									<legend>Cortesia: Demonstra educação e cordialidade</legend>
-									  <label class="radio-inline"><input type="radio" name="cortesia" value="pessimo">Pessimo</label>
-									  <label class="radio-inline"><input type="radio" name="cortesia" value="regular">Regular</label>
-									  <label class="radio-inline"><input type="radio" name="cortesia" value="bom">Bom</label>
-									  <label class="radio-inline"><input type="radio" name="cortesia" value="excelente">Excelente</label>     
+									  <label class="radio-inline"><input type="radio" name="cortesia" value="Pessimo" required="required">Pessimo</label>
+									  <label class="radio-inline"><input type="radio" name="cortesia" value="Regular" required="required">Regular</label>
+									  <label class="radio-inline"><input type="radio" name="cortesia" value="Bom" required="required">Bom</label>
+									  <label class="radio-inline"><input type="radio" name="cortesia" value="Excelente" required="required">Excelente</label>     
 								  </fieldset>
 							</div>
                         </div>
@@ -69,10 +69,10 @@
 							<div class="form-group">
 								  <fieldset>
 									<legend>Eficacia: Técnico com Conhecimento e capacitação</legend>
-									  <label class="radio-inline"><input type="radio" name="eficacia" value="pessimo">Pessimo</label>
-									  <label class="radio-inline"><input type="radio" name="eficacia" value="regular">Regular</label>
-									  <label class="radio-inline"><input type="radio" name="eficacia" value="bom">Bom</label>
-									  <label class="radio-inline"><input type="radio" name="eficacia" value="excelente">Excelente</label>     
+									  <label class="radio-inline"><input type="radio" name="eficacia" value="Pessimo" required="required">Pessimo</label>
+									  <label class="radio-inline"><input type="radio" name="eficacia" value="Regular" required="required">Regular</label>
+									  <label class="radio-inline"><input type="radio" name="eficacia" value="Bom" required="required">Bom</label>
+									  <label class="radio-inline"><input type="radio" name="eficacia" value="Excelente" required="required">Excelente</label>     
 								  </fieldset>
 							</div>
                         </div>
@@ -81,10 +81,10 @@
 							<div class="form-group">
 								  <fieldset>
 									<legend>Suporte Técnico: Os problemas são resolvidos com rapidez</legend>
-									  <label class="radio-inline"><input type="radio" name="suporte" value="pessimo">Pessimo</label>
-									  <label class="radio-inline"><input type="radio" name="suporte" value="regular">Regular</label>
-									  <label class="radio-inline"><input type="radio" name="suporte" value="bom">Bom</label>
-									  <label class="radio-inline"><input type="radio" name="suporte" value="excelente">Excelente</label>     
+									  <label class="radio-inline"><input type="radio" name="suporte" value="Pessimo" required="required">Pessimo</label>
+									  <label class="radio-inline"><input type="radio" name="suporte" value="Regular" required="required">Regular</label>
+									  <label class="radio-inline"><input type="radio" name="suporte" value="Bom" required="required">Bom</label>
+									  <label class="radio-inline"><input type="radio" name="suporte" value="Excelente" required="required">Excelente</label>     
 								  </fieldset>
 							</div>
                         </div>
@@ -93,11 +93,11 @@
 							<div class="form-group">
 								  <fieldset class="indicar">
 									<legend>Indicaria a Softcom</legend>
-									  <label class="radio-inline"><input type="radio" name="indicaria" value="1">1</label>
-									  <label class="radio-inline"><input type="radio" name="indicaria" value="2">2</label>
-									  <label class="radio-inline"><input type="radio" name="indicaria" value="3">3</label>
-									  <label class="radio-inline"><input type="radio" name="indicaria" value="4">4</label> 
-									  <label class="radio-inline"><input type="radio" name="indicaria" value="5">5</label>    
+									  <label class="radio-inline"><input type="radio" name="indicaria" value="1" required="required">1</label>
+									  <label class="radio-inline"><input type="radio" name="indicaria" value="2" required="required">2</label>
+									  <label class="radio-inline"><input type="radio" name="indicaria" value="3" required="required">3</label>
+									  <label class="radio-inline"><input type="radio" name="indicaria" value="4" required="required">4</label> 
+									  <label class="radio-inline"><input type="radio" name="indicaria" value="5" required="required">5</label>    
 								  </fieldset>
 							</div>
                         </div>
