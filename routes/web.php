@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::post('/enviar','ContatoController@enviaContato');
-Route::get('/tank', function){
+Route::get('/tank', function () {
 	return view('agradecimento');
-}
+})
