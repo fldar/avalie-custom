@@ -25,6 +25,7 @@ class ContatoController extends Controller
 		}
 		Mail::to($remetente)->send(new ContatoConfirma($request));
 		
-		header("/tank");
+		echo "Agradecemos sua avaliação";
+		
 	}
 }
