@@ -8,4 +8,4 @@ Técnico: <span style="font-style: italic">{{$dados->tecnico}} </span>
 <p>Elogio:</p>
 <p style="font-style: italic">&ldquo;{{$dados->elogio}}&rdquo;</p>
 <br>
-<p>Feita por: {{$dados->email}}</p>
+<p>Feita por: {{$dados->nome}}</p>
