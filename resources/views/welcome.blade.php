@@ -43,7 +43,7 @@
       <!--=======  CORPO ========-->
 <!-- action="mail_send.php" method="post" -->
 <form action="/enviar" method="post">
-{{ csrf_field() }}
+ {{ csrf_field() }} 
       <div class="container container-custom"> <!--=======  container ========-->
 
           <div class="row"> <!--=======  row principal ========-->
