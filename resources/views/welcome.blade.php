@@ -136,8 +136,8 @@
                       <div class="row">
 
                         <div class="form-group col-md-12" >
-                             <label for="email">Email:</label>
-                             <input type="email" name="email" class="form-control texto" id="email" required>
+                             <label for="email">Nome:</label>
+                             <input type="text" name="email" class="form-control texto" id="email" required>
                         </div>
 
                       </div>
