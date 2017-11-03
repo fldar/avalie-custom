@@ -10,7 +10,7 @@
 
    <title>Avalie-me Softcom</title>
 
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/style.css">
 
 
@@ -26,9 +26,7 @@
   <body>
 
       <!-- TOPO DA PAGINA -->
-	  
-	  
-      <nav id="topo" class="navbar  navbar-inverse bg-inverse navbar-fixed-top" style="background: white;">
+      <nav id="topo" class="navbar  navbar-inverse bg-inverse " style="background: white;">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="index.html">
