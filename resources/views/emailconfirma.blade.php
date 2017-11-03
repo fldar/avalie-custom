@@ -1,4 +1,4 @@
-<h2>Avaliação Softcom</h2>
+<h2 style="border: 1px solid red">Avaliação Softcom</h2>
 	<br />
 	<h3>Você avaliou o técnico {{$dados->tecnico}}</h3>
 	<br />
