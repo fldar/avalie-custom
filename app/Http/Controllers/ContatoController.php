@@ -15,13 +15,13 @@ class ContatoController extends Controller
 	{
 		$remetente = $request->email;
 		
-		Mail::to('lucasalmeidacco@gmail.com')->send(new ContatoEmail($request));
+		Mail::to('softcomavalie@gmail.com')->send(new ContatoEmail($request));
 		
 		if(empty($request->elogio))
 		{
 			
 		}else{
-			Mail::to('lucasalmeidacco@gmail.com')->send(new ContatoElogio($request));
+			Mail::to('sac@softcomtecnologia.com.br')->send(new ContatoElogio($request));
 		}
 		Mail::to($remetente)->send(new ContatoConfirma($request));
 		
