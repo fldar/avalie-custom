@@ -136,7 +136,7 @@
                       <div class="row">
 
                         <div class="form-group col-md-12" >
-                             <label for="email">Nome:</label>
+                             <label for="email">Nome ou Email:</label>
                              <input type="text" name="email" class="form-control texto" id="email" required>
                         </div>
 
@@ -157,7 +157,7 @@
 				  <div class="row ">
                     <div class="col-md-12">
                       <div class="row botao form-actions" >
-					   <label for="registro">Deixe um elogio: </label>
+					   <label for="registro">Deixe um elogio ou sugestão: </label>
                        <textarea name="elogio"  id="elogio" cols="40" rows="3" class="form-control"></textarea>
                       </div>
                     </div>
