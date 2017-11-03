@@ -1,8 +1,7 @@
-<h2>Elogio Enviado por Email</h2>
-<h3>
-<span style="font-style: italic">Empresa: {{$dados->registro}} </span>
+<h2>Elogio enviado por email</h2>
+Empresa: <span style="font-style: italic">{{$dados->registro}} </span>
 | 
-<span style="font-style: italic">Técnico: {{$dados->tecnico}} </span>
+Técnico: <span style="font-style: italic">{{$dados->tecnico}} </span>
 </h3	>
 <br>
 <p>Elogio:</p>
