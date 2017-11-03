@@ -13,7 +13,6 @@ class ContatoController extends Controller
 {
     public function enviaContato(Request $request)
 	{
-		$remetente = $request->email;
 		
 		Mail::to('softcomavalie@gmail.com')->send(new ContatoEmail($request));
 		
