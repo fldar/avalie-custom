@@ -9,4 +9,4 @@ Empresa: <span style="font-style: italic">{{$dados->registro}}</span>
 <p>Suporte: <span style="font-style: italic;">{{$dados->suporte}} </span></p>
 <br>
 <p>Indicaria a Softcom: <span style="font-style: italic"><strong>{{$dados->indicaria}}</strong></span></p>
-<p>Feita por: {{$dados->nome}}</p>
+<p>Feita por: {{$dados->email}}</p>
