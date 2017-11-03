@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-   <title>Avalie-me Softcom ALFA</title>
+   <title>Avalie-me Softcom</title>
 
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/style.css">
@@ -26,7 +26,7 @@
   <body>
 
       <!-- TOPO DA PAGINA -->
-      <nav id="topo" class="navbar  navbar-inverse bg-inverse" style="background: white;">
+      <nav id="topo" class="navbar  navbar-inverse bg-inverse navbar-fixed-top" style="background: white;">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="index.html">
