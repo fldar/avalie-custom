@@ -30,7 +30,7 @@ class ContatoElogio extends Mailable
      */
     public function build()
     {
-        return $this->from($this->dados->email,$this->dados->nome)
+        return $this->from('avaliesoftcom@gmail.com',$this->dados->nome)
                     ->subject('Elogio'." ".$this->dados->registro)
                     ->view('emailelogio');
     }
