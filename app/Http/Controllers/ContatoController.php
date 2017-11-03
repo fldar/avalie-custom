@@ -23,7 +23,6 @@ class ContatoController extends Controller
 		}else{
 			Mail::to('sac@softcomtecnologia.com.br')->send(new ContatoElogio($request));
 		}
-		Mail::to($remetente)->send(new ContatoConfirma($request));
 		
 		echo "Agradecemos sua avaliação";
 		
